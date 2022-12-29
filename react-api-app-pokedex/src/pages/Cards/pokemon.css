@@ -1,0 +1,77 @@
+.card{
+    width: 460px;
+    height: 210px;
+    left: 0px;
+    top: 0px;
+    background: #729F92;
+    border-radius: 12px;
+    display: inline-block;
+    float: left;
+    margin: 53px 20px 53px 65px;
+    justify-content: space-between;
+}
+
+.ids{
+    width: 30px;
+    height: 19px;
+    left: 23px;
+    top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 5px 57px 6px 13px;
+}
+
+.pokename{
+    width: 159px;
+    height: 39px;
+    left: 23px;
+    top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin: 0px 12px -111px;
+}
+
+.details{
+    width: 74px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 12px;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    width: 146px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    margin: 7px 34px 7px 189px;
+    border: none;
+    flex-grow: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F0F0F;
+}
