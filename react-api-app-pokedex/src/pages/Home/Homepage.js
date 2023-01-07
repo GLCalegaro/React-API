@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import { Card, Col, Row } from 'react-bootstrap';
-import Pokemon from "../Cards/Pokemon";
-
+import { Col, Row } from 'react-bootstrap';
+// import Pokemon from "../Cards/Pokemon";
+import {Card} from "../../components/Cards/Card";
+import { Container, Bodycontainer } from "./styledhome";
+import Header from "../Header/Header";
 
 const Homepage = () => {
 
@@ -28,14 +30,20 @@ useEffect(() => {
 }, [])
 
   return (
-    <Row>
+    <>
+    <Header />
+    <Bodycontainer>    
+            <h5>Todos Pokémons</h5>
+    </Bodycontainer>
+    <Container background="gray">
       {pokemon.map(p => (
       <Col key={p.data.name}>
-        <Pokemon pokemon={p.data}/>
+        <Card pokemon={p.data}/>
       </Col>
         ))}
 
-    </Row>
+    </Container>
+    </>
   )
 }
 

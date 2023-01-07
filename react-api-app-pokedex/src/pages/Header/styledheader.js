@@ -1,16 +1,23 @@
+import styled from "styled-components";
 
-.navbar-img{
+export const Bodyheader = styled.div`
+    width: 100%;
+    height: 100%;
+    background-color: #5E5E5E;
+`;
+
+export const Bodyimg = styled.img`
 position: absolute;
 width: 307px;
 height: 113px;
 left: 566px;
 top: 21px;
-}
+`;
 
-.poke-btn{
+export const Pokedexbutton = styled.button`
 width: 106px;
 height: 36px;
-font-family: 'Poppins';
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -32,22 +39,4 @@ top: 41px;
 background: #33A4F5;
 border-radius: 8px;
 border: none;
-}
-
-.header{
-    width: 100%;
-    height: 160px;
-    left: 0px;
-    top: 0px;
-    background-color: #4a4a4aec;
-    color: #FFFFFF;   
-}
-
-.bodyheade{
-    margin: 220px 980px 2163px 80px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 72px;
-}
+`;
